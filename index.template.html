@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>LTL</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    
+    <!-- build:basehref -->
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+
+    <style>
+        .ng-hide-add, .ng-hide-remove {
+        /* this is required as of 1.3x to properly
+            apply all styling in a show/hide animation */
+        transition: 0s linear all;
+        }
+    </style>
+
+</head>
+<body ng-app="app">
+    
+    <div style="height: 50px">
+        <!-- spacer -->
+    </div>
+
+    <demo></demo>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+
+    <!--<script src="dist/demo-component/demo-component.module.js"></script>
+    <script src="dist/demo-component/demo-component.controller.js"></script>
+    <script src="dist/demo-component/demo-component.component.js"></script>
+
+    <script src="dist/app.js"></script>
+    <script src="dist/app.config.js"></script>-->
+
+    <script src="webpack/bundle.js"></script>
+</body>
+</html>

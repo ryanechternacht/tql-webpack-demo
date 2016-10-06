@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "sourceMap": true,
+    "declaration": true,
+    "module": "commonjs",
+    "noEmitOnError": true
+
+  },
+  "filesGlob": [
+    "typings/browser.d.ts",
+    "src/**/*.ts",
+    "test/**/*.ts",
+    "!node_modules/**"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
